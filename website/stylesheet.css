@@ -1,0 +1,45 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue color */
+    color: #333; /* Dark gray color */
+    margin: 120px; /* Add a margin to create a gutter on each side */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0066cc; /* Light blue color for the heading */
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+#skill-text {
+    font-size: 16px;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+#skill-text.expanded {
+        height: auto;
+		font-size: 16px;
+		transition: height 1s ease-in-out;
+}
+
+.collapsing {
+    opacity: 1;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666; /* Gray color for footer text */
+}
