@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Light blue color */
+    background-color: #1E1E1E; /* Light blue color */
     color: #333; /* Dark gray color */
     margin: 120px; /* Add a margin to create a gutter on each side */
 }
@@ -16,8 +16,17 @@ h1 {
     color: #0066cc; /* Light blue color for the heading */
 }
 
+h2 {
+    color: #7E8E9E;
+}
+
+h3 {
+    color: #7E8E9E;
+}
+
 p {
     line-height: 1.6;
+    color: #7E8E9E;
 }
 
 
@@ -35,6 +44,41 @@ p {
 
 .collapsing {
     opacity: 1;
+}
+
+.skills-section {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content:center;
+}
+
+.skill-box {
+    width: 30%; /* Adjust the width as needed */
+    background-color: #1E1E1E;
+    box-sizing: border-box;
+    border: 3px solid #3498DB;
+    box-shadow: 0 0 15px #D32F2F;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+    color:#7E8E9E ;
+    font-size: 10px;
 }
 
 footer {
