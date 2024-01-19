@@ -2,9 +2,9 @@ function readMoreToggle() {
     var container = document.getElementById("skill-text");
     var button = document.getElementById("readMore");
   
-    container.classList.toggle("expanded");
+    container.classList.toggle("expanded2");
   
-    if (container.classList.contains("expanded")) {
+    if (container.classList.contains("expanded2")) {
       button.textContent = "Read Less";
       container.style.height = container.scrollHeight + "px";
     } else {

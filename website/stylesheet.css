@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #1E1E1E; /* Light blue color */
+    background-color: #f8f9fa; /* Light blue color */
     color: #333; /* Dark gray color */
     margin: 120px; /* Add a margin to create a gutter on each side */
 }
@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-    color: #0066cc; /* Light blue color for the heading */
+    color: #343a40; /* Light blue color for the heading */
 }
 
 h2 {
@@ -32,6 +32,7 @@ p {
 
 #skill-text {
     font-size: 16px;
+    height: 150px;
     overflow: hidden;
     transition: height 1s ease-in-out;
 }
@@ -46,21 +47,26 @@ p {
     opacity: 1;
 }
 
+.line {
+    border-top: 5px solid #17a2b8;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #0066cc;
+}
+
 .skills-section {
-    max-width: 800px;
-    margin: 50px auto;
+    max-width: 1300px;
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
-    justify-content:center;
+    justify-content:start;
 }
 
 .skill-box {
-    width: 30%; /* Adjust the width as needed */
-    background-color: #1E1E1E;
-    box-sizing: border-box;
-    border: 3px solid #3498DB;
-    box-shadow: 0 0 15px #D32F2F;
+    width: fit-content; /* Adjust the width as needed */
+    height: fit-content;
+    border: 2px solid #17a2b8;
     margin-bottom: 20px;
     margin-right: 20px;
     padding: 5px;
@@ -72,13 +78,20 @@ p {
 .skill-icon {
     width: 20px;
     height: 20px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .skill-name {
     font-weight: bold;
     color:#7E8E9E ;
-    font-size: 10px;
+    font-size: 12px;
+}
+
+.read-more-button {
+    color: gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
 }
 
 footer {
